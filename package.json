@@ -1,0 +1,50 @@
+{
+  "name": "@goodzyk/components",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "dev": "STORYBOOK_NAME=${APP_NAME:-crm} start-storybook -s ./src/static -p 6660",
+    "build": "babel --root-mode upward src -d build --ignore **/*.story.js,**/*.spec.js",
+    "watch": "babel --root-mode upward src --watch -d build --ignore **/*.story.js,**/*.spec.js"
+  },
+  "dependencies": {
+    "@storybook/addon-knobs": "^6.0.16",
+    "@storybook/react": "^6.0.16",
+    "add": "^2.0.6",
+    "body-scroll-lock": "^3.0.3",
+    "clsx": "1.2.1",
+    "dot-object": "^2.1.4",
+    "imagekitio-react": "^1.0.10",
+    "js-regex-pl": "^1.0.1",
+    "nanoid": "^3.1.22",
+    "prop-types": "^15.7.2",
+    "rc-slider": "^9.3.1",
+    "react": "^17.0.2",
+    "react-base-table": "^1.12.0",
+    "react-dom": "^17.0.2",
+    "react-html-map": "^0.1.1",
+    "react-multi-carousel": "^2.5.5",
+    "react-overlays": "^5.1.1",
+    "react-player": "^1.14.2",
+    "react-rte": "^0.16.4",
+    "react-select": "^3.1.0",
+    "react-switch": "^5.0.1",
+    "react-texty": "^0.6.0",
+    "react-virtualized-auto-sizer": "^1.0.2",
+    "react-window": "^1.8.6",
+    "react-window-infinite-loader": "^1.0.5",
+    "styled-components": "^5.3.3",
+    "transliteration": "^2.2.0",
+    "yarn": "^1.22.11"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/goodzyk-infra/frontend-apps",
+  "private": true,
+  "devDependencies": {
+    "@storybook/addon-viewport": "^5.3.19"
+  }
+}
