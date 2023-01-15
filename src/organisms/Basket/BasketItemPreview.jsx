@@ -4,7 +4,7 @@ import { withTheme } from "styled-components";
 import {
   getAvailableTranslation,
   IMAGEKIT_PARAMS_CONFIG,
-} from "@goodzyk/components";
+} from "../../index";
 
 import { StyledFlexRow, StyledItemImage } from "./styled";
 import Typography from "../../atoms/Typography";

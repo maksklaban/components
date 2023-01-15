@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import clsx from "clsx";
 import ReactTexty from "react-texty";
 
-import { IMAGEKIT_PARAMS_CONFIG } from "@goodzyk/components";
+import { IMAGEKIT_PARAMS_CONFIG } from "../../index";
 
 import {
   StyledCard,

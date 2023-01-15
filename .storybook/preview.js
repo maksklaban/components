@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components'
 import { addDecorator } from '@storybook/react'
 import { MINIMAL_VIEWPORTS } from '@storybook/addon-viewport'
 
-import '../../crm/src/fonts.css'
+// import '../../crm/src/fonts.css'
 
 import { useScreenContext } from '../src/hooks/useScreenContext'
 import { CommonGlobalStyle } from '../src'

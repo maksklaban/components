@@ -1,7 +1,7 @@
 import React from "react";
 import { withTheme } from "styled-components";
 
-import { Icon, Typography, isObjectEmpty } from "@goodzyk/components";
+import { Icon, Typography, isObjectEmpty } from "../../index";
 
 import { StyledContactsConfirmed, StyledContactsRow } from "./styled";
 

@@ -1,5 +1,5 @@
 {
-  "name": "@goodzyk/components",
+  "name": "@maksklaban/components",
   "version": "1.0.0",
   "main": "src/index.js",
   "module": "src/index.js",
@@ -27,6 +27,7 @@
     "react-multi-carousel": "^2.5.5",
     "react-overlays": "^5.1.1",
     "react-player": "^1.14.2",
+    "react-redux": "^7.1.0",
     "react-rte": "^0.16.4",
     "react-select": "^3.1.0",
     "react-switch": "^5.0.1",
@@ -42,9 +43,10 @@
     "styled-components": "^5"
   },
   "license": "MIT",
-  "repository": "https://github.com/goodzyk-infra/frontend-apps",
-  "private": true,
+  "repository": "https://github.com/maksklaban/components.git",
   "devDependencies": {
-    "@storybook/addon-viewport": "^5.3.19"
+    "@storybook/addon-viewport": "^5.3.19",
+    "babel-plugin-file-loader": "^2.0.0",
+    "@babel/core": "^7.19.6"
   }
 }

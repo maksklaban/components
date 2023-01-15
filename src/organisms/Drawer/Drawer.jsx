@@ -7,7 +7,7 @@ import {
 } from "body-scroll-lock";
 import clsx from "clsx";
 
-import { useUnmount } from "@goodzyk/components";
+import { useUnmount } from "../../index";
 
 import { StyledBackground, StyledDrawer, StyledToggleHandle } from "./styled";
 import Icon from "../../atoms/Icon";

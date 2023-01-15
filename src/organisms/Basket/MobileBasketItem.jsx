@@ -5,7 +5,7 @@ import { withTheme } from "styled-components";
 import {
   getAvailableTranslation,
   getPriceWithCurrency,
-} from "@goodzyk/components";
+} from "../../index";
 
 import { StyledFlexRow, StyledItemRow, StyledRowWrapper } from "./styled";
 import QuantityInput from "../../molecules/QuantityInput";

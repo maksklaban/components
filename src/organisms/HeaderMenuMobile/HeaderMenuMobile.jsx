@@ -3,7 +3,8 @@ import { PropTypes as T } from 'prop-types'
 import clsx from 'clsx'
 import { withTheme } from 'styled-components'
 
-import { Icon, HeaderMenuIcon } from '@goodzyk/components'
+import { HeaderMenuIcon } from '../../index'
+import { Icon } from '../../index'
 
 import { StyledHeaderMenuMobile, StyledMenu } from './styled'
 
