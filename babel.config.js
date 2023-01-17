@@ -3,8 +3,8 @@ module.exports = {
     development: {
       presets: ['@babel/preset-env', '@babel/preset-react'],
       plugins: [
-        // ['babel-plugin-styled-components'],
-        ['styled-components', { ssr: true, displayName: true, preprocess: false }],
+        ['babel-plugin-styled-components', { ssr: true, displayName: true, preprocess: false }],
+        // ['styled-components', { ssr: true, displayName: true, preprocess: false }],
         [
           'file-loader',
           {
@@ -21,8 +21,8 @@ module.exports = {
     production: {
       presets: ['@babel/preset-env', '@babel/preset-react'],
       plugins: [
-        // ['babel-plugin-styled-components'],
-        ['styled-components', { ssr: true, displayName: true, preprocess: false }],
+        ['babel-plugin-styled-components', { ssr: true, displayName: true, preprocess: false }],
+        // ['styled-components', { ssr: true, displayName: true, preprocess: false }],
         [
           'file-loader',
           {
@@ -39,8 +39,8 @@ module.exports = {
     server: {
       presets: ['@babel/preset-env', '@babel/preset-react'],
       plugins: [
-        // ['babel-plugin-styled-components'],
-        ['styled-components', { ssr: true, displayName: true, preprocess: false }],
+        ['babel-plugin-styled-components', { ssr: true, displayName: true, preprocess: false }],
+        // ['styled-components', { ssr: true, displayName: true, preprocess: false }],
         [
           'file-loader',
           {
