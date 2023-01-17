@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     development: {
-      presets: ['next/babel', '@babel/preset-env', '@babel/preset-react'],
+      presets: ['@babel/preset-env', '@babel/preset-react'],
       plugins: [
         // ['babel-plugin-styled-components'],
         ['styled-components', { ssr: true, displayName: true, preprocess: false }],
@@ -19,7 +19,7 @@ module.exports = {
       babelrcRoots: ['.', 'packages/*'],
     },
     production: {
-      presets: ['next/babel', '@babel/preset-env', '@babel/preset-react'],
+      presets: ['@babel/preset-env', '@babel/preset-react'],
       plugins: [
         // ['babel-plugin-styled-components'],
         ['styled-components', { ssr: true, displayName: true, preprocess: false }],
@@ -37,7 +37,7 @@ module.exports = {
       babelrcRoots: ['.', 'packages/*'],
     },
     server: {
-      presets: ['next/babel', '@babel/preset-env', '@babel/preset-react'],
+      presets: ['@babel/preset-env', '@babel/preset-react'],
       plugins: [
         // ['babel-plugin-styled-components'],
         ['styled-components', { ssr: true, displayName: true, preprocess: false }],
