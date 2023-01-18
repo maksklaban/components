@@ -48,8 +48,9 @@
     "@storybook/addon-viewport": "^5.3.19",
     "babel-plugin-file-loader": "^2.0.0",
     "@babel/core": "^7.19.6",
-    "@babel/preset-env" : "^1.0.0", 
-    "@babel/preset-react" : "^1.0.0",
-    "babel-plugin-styled-components": "^1.0.0"
+    "@babel/preset-env" : "latest", 
+    "@babel/preset-react" : "latest",
+    "babel-plugin-styled-components": "latest",
+    "babel-loader" : "latest"
   }
 }
