@@ -1,8 +1,8 @@
 {
   "name": "@maksklaban/components",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "version": "1.0.1",
+  "main": "build/index.js",
+  "module": "build/index.js",
   "scripts": {
     "dev": "STORYBOOK_NAME=${APP_NAME:-crm} start-storybook -s ./src/static -p 6660",
     "build": "babel --root-mode upward src -d build --ignore **/*.story.js,**/*.spec.js",
