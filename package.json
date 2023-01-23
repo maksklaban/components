@@ -4,8 +4,9 @@
   "main": "build/index.js",
   "module": "build/index.js",
   "scripts": {
-    "dev": "STORYBOOK_NAME=${APP_NAME:-crm} start-storybook -s ./src/static -p 6660",
     "build": "babel --root-mode upward src -d build --ignore **/*.story.js,**/*.spec.js",
+    "predev": "yarn build",
+    "dev": "STORYBOOK_NAME=${APP_NAME:-crm} start-storybook -s ./src/static -p 6660",
     "watch": "babel --root-mode upward src --watch -d build --ignore **/*.story.js,**/*.spec.js"
   },
   "dependencies": {
@@ -48,10 +49,10 @@
     "@storybook/addon-viewport": "^5.3.19",
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.19.6",
-    "@babel/preset-env" : "latest",
-    "@babel/preset-react" : "latest",
+    "@babel/preset-env" : "^7.19.4",
+    "@babel/preset-react" : "^7.16.7",
     "babel-plugin-file-loader": "^2.0.0",
-    "babel-plugin-styled-components": "latest",
-    "babel-loader" : "latest"
+    "babel-plugin-styled-components": "^2.0.7",
+    "babel-loader" : "^9.0.0"
   }
 }
